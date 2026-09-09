@@ -1,0 +1,20 @@
+# This program was created in Arduino Lab for MicroPython
+# This program deals with LEDs
+
+#First, add modules
+import machine #module for dealing with the microcontroller board
+import time #time module. duh
+
+#Make Object
+led = machine.Pin(0, machine.Pin.OUT) #Specifies what the LED is and where. Green LED is the GPIO Pin 0
+
+#Finally, make the loop
+while True:
+#Infinite Loop
+  led.value(1) #on
+  
+  time.sleep(1) #wait 1 sec
+  
+  led.value(0) #off
+
+  time.sleep(1) #wait 1 sec
