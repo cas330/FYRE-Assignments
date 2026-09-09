@@ -1,5 +1,5 @@
 Arduino Programming and Other Stuff
 Currently I have:
-Program that blinks onboard LED
+Program that blinks onboard LED (not a class assignment) 
 Program that prints my name
 Program that prints "Hello World!"
